@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.menu a {
+  &:hover {
+    color: #08788b;
+  }
+}
+.logo img {
+  width: 150px;
+}
