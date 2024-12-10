@@ -15,4 +15,28 @@
 .logoredes img {
   height: 40px;
   width: 40px;
-   }
+}
+
+/* Carousel */
+.carousel-inner img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.carousel-conteiner {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Fin Carousel */
