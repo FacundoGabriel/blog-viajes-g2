@@ -3,11 +3,27 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.menu a {
-  &:hover {
-    color: #08788b;
-  }
-}
 .logo img {
   width: 150px;
+  padding: 30;
+  justify-content: space-around;
 }
+/* modificaciones de redes */
+.redes a {
+  font-size: 22px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+@media (max-width: 991px) lis {
+  flex-direction: column;
+}
+
+.redes {
+  display: flex;
+  text-align: center;
+
