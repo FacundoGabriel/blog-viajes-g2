@@ -19,11 +19,11 @@
   font-size: 20px;
 }
 
-@media (max-width: 991px) lis {
+@media (max-width: 991px) .list {
   flex-direction: column;
 }
 
 .redes {
   display: flex;
   text-align: center;
-
+}
