@@ -18,12 +18,21 @@
   justify-content: space-around;
   font-size: 20px;
 }
+@media (max-width: 991px) {
+  .list {
+    flex-direction: column;
+  }
+  .list-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
-@media (max-width: 991px) .list {
-  flex-direction: column;
+    padding: 0;
+    display: flex;
+  }
 }
-
 .redes {
   display: flex;
   text-align: center;
+  margin: 0;
 }
