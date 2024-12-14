@@ -36,3 +36,103 @@
   text-align: center;
   margin: 0;
 }
+
+.logoredes img {
+  height: 40px;
+  width: 40px;
+}
+
+
+.title-card{
+  color: white;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 6px;
+  font-size: 20px;
+
+}
+.card-custom {
+  max-width: 350px; 
+  margin: 0 auto;  
+}
+.card-custom img {
+  max-height: 200px; 
+  object-fit: cover; 
+}
+.btn-drop{
+  Color: #000;
+  border: 1px solid #0078d4;
+  font-size: 18px;
+}
+.btn-drop:hover{
+  border: 1px solid #0078d4;
+}
+.btn-card{
+  font-size: 16px;
+  border: 1px solid #0078d4;
+  background-color: #0078d4;
+  color: #fff;
+}
+.btn-card:hover{
+  background-color: #055796;
+  color: #fff;
+}
+/* Carousel */
+.carousel-inner img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.carousel-conteiner {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Fin Carousel */
+
+/* Inicio Main*/
+.title-card{
+  color: white;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 6px;
+  font-size: 20px;
+
+}
+.card-custom {
+  max-width: 350px; 
+  margin: 0 auto;  
+}
+.card-custom img {
+  max-height: 200px; 
+  object-fit: cover; 
+}
+.btn-drop{
+  Color: #000;
+  border: 1px solid #0078d4;
+  font-size: 18px;
+}
+.btn-drop:hover{
+  border: 1px solid #0078d4;
+}
+.btn-card{
+  font-size: 16px;
+  border: 1px solid #0078d4;
+  background-color: #0078d4;
+  color: #fff;
+}
+.btn-card:hover{
+  background-color: #055796;
+  color: #fff;
+}
+
+/*Fin Main*/
