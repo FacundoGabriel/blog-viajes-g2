@@ -3,13 +3,38 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.menu a {
-  &:hover {
-    color: #08788b;
-  }
-}
 .logo img {
   width: 150px;
+  padding: 30;
+  justify-content: space-around;
+}
+/* modificaciones de redes */
+.redes a {
+  font-size: 22px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .list {
+    flex-direction: column;
+  }
+  .list-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 0;
+    display: flex;
+  }
+}
+.redes {
+  display: flex;
+  text-align: center;
+  margin: 0;
 }
 
 .logoredes img {
