@@ -10,9 +10,13 @@
 }
 /* modificaciones de redes */
 .redes a {
-  font-size: 22px;
+  font-size: 35px;
+  justify-content: space-around;
 }
-
+.centrado {
+  display: flex;
+  justify-content: space-around;
+}
 .list {
   display: flex;
   justify-content: space-around;
@@ -35,12 +39,14 @@
   display: flex;
   text-align: center;
   margin: 0;
+  flex-direction: column;
 }
 
 .logoredes img {
   height: 40px;
   width: 40px;
 }
+/* fin de redes sociales  */
 
 .title-card {
   color: white;
