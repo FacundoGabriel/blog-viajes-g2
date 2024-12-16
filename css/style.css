@@ -42,37 +42,35 @@
   width: 40px;
 }
 
-
-.title-card{
+.title-card {
   color: white;
   border: 1px solid rgb(65, 65, 65);
   border-radius: 6px;
   font-size: 20px;
-
 }
 .card-custom {
-  max-width: 350px; 
-  margin: 0 auto;  
+  max-width: 350px;
+  margin: 0 auto;
 }
 .card-custom img {
-  max-height: 200px; 
-  object-fit: cover; 
+  max-height: 200px;
+  object-fit: cover;
 }
-.btn-drop{
-  Color: #000;
+.btn-drop {
+  color: #000;
   border: 1px solid #0078d4;
   font-size: 18px;
 }
-.btn-drop:hover{
+.btn-drop:hover {
   border: 1px solid #0078d4;
 }
-.btn-card{
+.btn-card {
   font-size: 16px;
   border: 1px solid #0078d4;
   background-color: #0078d4;
   color: #fff;
 }
-.btn-card:hover{
+.btn-card:hover {
   background-color: #055796;
   color: #fff;
 }
@@ -101,38 +99,51 @@
 /* Fin Carousel */
 
 /* Inicio Main*/
-.title-card{
+.title-card {
   color: white;
   border: 1px solid rgb(65, 65, 65);
   border-radius: 6px;
   font-size: 20px;
-
 }
 .card-custom {
-  max-width: 350px; 
-  margin: 0 auto;  
+  max-width: 350px;
+  margin: 0 auto;
 }
 .card-custom img {
-  max-height: 200px; 
-  object-fit: cover; 
+  max-height: 200px;
+  object-fit: cover;
 }
-.btn-drop{
-  Color: #000;
+.btn-drop {
+  color: #000;
   border: 1px solid #0078d4;
   font-size: 18px;
 }
-.btn-drop:hover{
+.btn-drop:hover {
   border: 1px solid #0078d4;
 }
-.btn-card{
+.btn-card {
   font-size: 16px;
   border: 1px solid #0078d4;
   background-color: #0078d4;
   color: #fff;
 }
-.btn-card:hover{
+.btn-card:hover {
   background-color: #055796;
   color: #fff;
 }
 
 /*Fin Main*/
+/* estilos para login */
+.login a {
+  margin-top: 15px;
+  font-size: 25px;
+
+  color: black;
+}
+.border {
+  border-radius: 2px solid;
+}
+.fondo {
+  background-color: antiquewhite;
+}
+/* fin de estilos para login  */
