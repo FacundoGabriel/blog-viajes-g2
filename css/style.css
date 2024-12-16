@@ -139,3 +139,17 @@
 }
 
 /*Fin Main*/
+/* estilos para login */
+.login a {
+  margin-top: 15px;
+  font-size: 25px;
+
+  color: black;
+}
+.border {
+  border-radius: 2px solid;
+}
+.fondo {
+  background-color: antiquewhite;
+}
+/* fin de estilos para login  */
