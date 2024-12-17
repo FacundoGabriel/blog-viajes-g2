@@ -3,50 +3,153 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.menu a {
-  &:hover {
-    color: #08788b;
-  }
-}
 .logo img {
   width: 150px;
+  padding: 30;
+  justify-content: space-around;
+}
+/* modificaciones de redes */
+.redes a {
+  font-size: 35px;
+  justify-content: space-around;
+}
+.centrado {
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .list {
+    flex-direction: column;
+  }
+  .list-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 0;
+    display: flex;
+  }
+}
+.redes {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  flex-direction: column;
 }
 
 .logoredes img {
   height: 40px;
   width: 40px;
 }
+/* fin de redes sociales  */
 
-.title-card{
+.title-card {
   color: white;
   border: 1px solid rgb(65, 65, 65);
   border-radius: 6px;
   font-size: 20px;
-
 }
 .card-custom {
-  max-width: 350px; 
-  margin: 0 auto;  
+  max-width: 350px;
+  margin: 0 auto;
 }
 .card-custom img {
-  max-height: 200px; 
-  object-fit: cover; 
+  max-height: 200px;
+  object-fit: cover;
 }
-.btn-drop{
-  Color: #000;
+.btn-drop {
+  color: #000;
   border: 1px solid #0078d4;
   font-size: 18px;
 }
-.btn-drop:hover{
+.btn-drop:hover {
   border: 1px solid #0078d4;
 }
-.btn-card{
+.btn-card {
   font-size: 16px;
   border: 1px solid #0078d4;
   background-color: #0078d4;
   color: #fff;
 }
-.btn-card:hover{
+.btn-card:hover {
   background-color: #055796;
   color: #fff;
 }
+/* Carousel */
+.carousel-inner img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.carousel-conteiner {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Fin Carousel */
+
+/* Inicio Main*/
+.title-card {
+  color: white;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 6px;
+  font-size: 20px;
+}
+.card-custom {
+  max-width: 350px;
+  margin: 0 auto;
+}
+.card-custom img {
+  max-height: 200px;
+  object-fit: cover;
+}
+.btn-drop {
+  color: #000;
+  border: 1px solid #0078d4;
+  font-size: 18px;
+}
+.btn-drop:hover {
+  border: 1px solid #0078d4;
+}
+.btn-card {
+  font-size: 16px;
+  border: 1px solid #0078d4;
+  background-color: #0078d4;
+  color: #fff;
+}
+.btn-card:hover {
+  background-color: #055796;
+  color: #fff;
+}
+
+/*Fin Main*/
+/* estilos para login */
+.login a {
+  margin-top: 15px;
+  font-size: 25px;
+
+  color: black;
+}
+.border {
+  border-radius: 2px solid;
+}
+.fondo {
+  background-color: antiquewhite;
+}
+/* fin de estilos para login  */
