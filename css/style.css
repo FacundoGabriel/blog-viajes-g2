@@ -199,3 +199,29 @@
     width: 80%;
   }
 }
+
+/* comienzo sobre nosotros */
+
+main {
+  padding: 50px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #caebf2;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1,
+h5,
+p,
+.blockquote {
+  color: #0e0d0dc7;
+}
+
+/* fin sobre nosotros */
