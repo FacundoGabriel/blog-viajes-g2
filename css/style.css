@@ -46,8 +46,30 @@
   height: 40px;
   width: 40px;
 }
-/* fin de redes sociales  */
+/* fin de modificaciones de redes sociales  */
+/* inicio de login  */
 
+.login a {
+  margin-bottom: 15px;
+  font-size: 25px;
+
+  color: black;
+}
+.border {
+  border-radius: 2px solid;
+}
+.fondo {
+  background-image: url(../img/fondo\ login);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.boton {
+  border-radius: inherit background-color;
+}
+/* fin de login  */
 .title-card {
   color: white;
   border: 1px solid rgb(65, 65, 65);
@@ -153,3 +175,53 @@
   background-color: antiquewhite;
 }
 /* fin de estilos para login  */
+/* rama contacto inicio */
+
+.contacto {
+  background-image: url(../img/fondo\ contacto);
+  width: 100%;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+}
+.formulario {
+  width: 40%;
+  font-size: 20px;
+  color: white;
+  align-content: center;
+}
+
+.parrafo {
+  color: moccasin;
+}
+@media (max-width: 559px) {
+  .formulario {
+    width: 80%;
+  }
+}
+
+/* comienzo sobre nosotros */
+
+.conteiner_main {
+  padding: 50px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #caebf2;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1,
+h5,
+p,
+.blockquote {
+  color: #0e0d0dc7;
+}
+
+/* fin sobre nosotros */
