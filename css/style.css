@@ -225,3 +225,47 @@ p,
 }
 
 /* fin sobre nosotros */
+
+/* ERROR 404 */
+    .error-container {
+      padding-top: 11%;
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .error-container img {
+      width: 100%;
+      /* height cambia 100% para img total */
+      height: 200%;
+      object-fit: cover;
+      /* position cambia fixed para img total*/
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+
+    .error-container h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .error-container p {
+      font-size: 1.5rem;
+      margin-top: 15px;
+    }
+
+    .btn-custom {
+      margin-top: 20px;
+      padding: 5px 10px;
+      color: rgb(43, 42, 42);
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
