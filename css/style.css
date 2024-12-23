@@ -214,14 +214,16 @@ p,
   margin-top: 20px;
   padding: 5px 10px;
   color: #fff;
-  border: 1px solid rgb(43, 42, 42);
+  border-bottom: 1px solid rgb(65, 65, 65);
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  transition: border 0.5s ease;
 }
 
 .btn-custom:hover {
-  background-color: #0056b3;
+  color: #0078d4;
+  background: #fff;
 }
 .img {
   width: 600px;
@@ -313,6 +315,29 @@ p,
 }
 .formulario {
   width: 50%;
+}
+.img-galeria{
+  overflow: hidden;
+}
+.img-galeria img{
+  width: 450px; 
+  height: 400px; 
+  transition: transform 0.3s ease-in-out;
+  
+}
+.img-galeria img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.galeria img{
+  width: 350px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .list {
